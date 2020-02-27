@@ -1,0 +1,15 @@
+Début algorithme
+Demander réel argent
+Demander réel prix
+nb_Bonbon = 0
+si argent >  et prix > 0
+  Tant que argent > 0 :
+    si argent >= prix :
+      alors nb_Bonbon <- nb_Bonbon + 1
+    fin si
+    argent <- argent - prix
+  fin Tant que
+Fin si
+afficher nb_Bonbon
+fin algorithme
+      
